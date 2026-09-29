@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elda & Divin ❤️</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            background: linear-gradient(135deg, #1a0010, #4a001f, #8b0038);
+            font-family: Georgia, serif;
+            color: white;
+        }
+        .container {
+            width: 90%;
+            max-width: 650px;
+            text-align: center;
+            padding: 35px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 40px rgba(255, 80, 130, 0.25);
+            z-index: 2;
+        }
+        h1 {
+            font-size: 42px;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 20px;
+            opacity: 0.85;
+            margin-bottom: 35px;
+        }
+        .heart {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            background: #ff1744;
+            transform: rotate(-45deg);
+            margin: 45px auto;
+            animation: beat 1s infinite;
+            box-shadow: 0 0 35px #ff1744;
+        }
+        .heart::before,
+        .heart::after {
+            content: "";
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: #ff1744;
+            border-radius: 50%;
+        }
+        .heart::before {
+            top: -40px;
+            left: 0;
+        }
+        .heart::after {
+            top: 0;
+            left: 40px;
+        }
+        @keyframes beat {
+            0%, 100% {
+                transform: rotate(-45deg) scale(1);
+            }
+            50% {
+                transform: rotate(-45deg) scale(1.18);
+            }
+        }
+        .message {
+            font-size: 19px;
+            line-height: 1.8;
+        }
+        .message strong {
+            color: #ff9fba;
+        }
+        .months {
+            margin-top: 25px;
+            font-size: 25px;
+            font-weight: bold;
+            color: #ffb6c9;
+        }
+        .signature {
+            margin-top: 25px;
+            font-size: 22px;
+            font-style: italic;
+        }
+        .floating-heart {
+            position: absolute;
+            bottom: -40px;
+            animation: float 7s linear infinite;
+            opacity: 0.8;
+        }
+        .h1 { left: 10%; animation-delay: 0s; font-size: 25px; }
+        .h2 { left: 25%; animation-delay: 2s; font-size: 18px; }
+        .h3 { left: 45%; animation-delay: 4s; font-size: 30px; }
+        .h4 { left: 65%; animation-delay: 1s; font-size: 22px; }
+        .h5 { left: 85%; animation-delay: 3s; font-size: 28px; }
+        @keyframes float {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 0;
+            }
+            20% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-110vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="floating-heart h1">❤️</div>
+    <div class="floating-heart h2">💕</div>
+    <div class="floating-heart h3">💗</div>
+    <div class="floating-heart h4">💖</div>
+    <div class="floating-heart h5">❤️</div>
+    <div class="container">
+        <h1>Elda & Divin ❤️</h1>
+        <div class="subtitle">
+            5 months of us
+        </div>
+        <div class="heart"></div>
+        <div class="message">
+            <p>
+                Divin, cinq mois peuvent sembler être peu de temps,
+                mais en cinq mois, tu as pris une place particulière
+                dans mon cœur.
+            </p>
+            <br>
+            <p>
+                Je ne veux pas seulement me souvenir des beaux moments.
+                Je veux aussi me souvenir de tout ce qu'on a traversé,
+                des rires, des discussions, des moments où on s'est compris
+                et même de ceux où on a dû apprendre à mieux se comprendre.
+            </p>
+            <br>
+            <p>
+                <strong>Je ne sais pas ce que l'avenir nous réserve,</strong>
+                mais aujourd'hui, je sais que je suis reconnaissante
+                d'avoir partagé ces cinq mois avec toi.
+            </p>
+            <br>
+            <p>
+                Merci pour les petits moments qui sont devenus de grands
+                souvenirs. Merci pour ta présence, pour les sourires,
+                et simplement pour être devenu une partie de ma vie.
+            </p>
+            <br>
+            <p>
+                J'espère qu'on continuera à grandir ensemble, à apprendre
+                l'un de l'autre et à créer encore beaucoup de souvenirs.
+                ❤️
+            </p>
+        </div>
+        <div class="months">
+            Happy 5 Months, my love. ❤️
+        </div>
+        <div class="signature">
+            Forever grateful for you — Elda 💕
+        </div>
+    </div>
+</body>
+</html>
